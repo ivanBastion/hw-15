@@ -1,0 +1,49 @@
+.holder {
+    display: flex;
+flex-wrap: wrap;
+width: 240px;
+height: 80;
+border: solid 2px;
+border-radius: 15px 15px 0px 0px;
+}
+
+.item1 {
+  
+    background-color: crimson;
+    width: 120px;
+    height: 40px;
+    order: 1;
+    text-align: center;
+    border-radius: 13px 0px 0px 0px;
+}
+
+.item5 {
+
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    order: 2;
+    text-align: center;
+    border-radius: 0px 13px 0px 0px;
+}   
+.item3{
+    background-color: blueviolet;
+    width: 80px;
+    height: 40px;
+    order: 3;
+    text-align: center;
+}   
+.item2{
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+    order: 4;
+    text-align: center;
+}   
+.item4{
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    order: 5;
+    text-align: center;
+}   
